@@ -11,7 +11,7 @@ tone_color_converter = ToneColorConverter(f'{ckpt_converter}/config.json', devic
 tone_color_converter.load_ckpt(f'{ckpt_converter}/checkpoint.pth')
 
 os.makedirs(output_dir, exist_ok=True)
-reference_speaker = 'resources/example_reference.mp3' # This is the voice you want to clone
+reference_speaker = './my_vioce.m4a' # This is the voice you want to clone
 target_se, audio_name = se_extractor.get_se(reference_speaker, tone_color_converter, vad=False)
 
 from melo.api import TTS
