@@ -18,12 +18,9 @@ from melo.api import TTS
 
 texts = {
     'EN_NEWEST': "Did you ever hear a folk tale about a giant turtle?",  # The newest English base speaker model
-    'EN': "Did you ever hear a folk tale about a giant turtle?",
-    'ES': "El resplandor del sol acaricia las olas, pintando el cielo con una paleta deslumbrante.",
-    'FR': "La lueur dorée du soleil caresse les vagues, peignant le ciel d'une palette éblouissante.",
+    'EN': "Hello, I am 吴在强 from the university of Tokyo. The title of my presentation is Virtual Measurement Garment for Per-Garment Virtual Try-On.",
     'ZH': "在这次vacation中，我们计划去Paris欣赏埃菲尔铁塔和卢浮宫的美景。",
-    'JP': "彼は毎朝ジョギングをして体を健康に保っています。",
-    'KR': "안녕하세요! 오늘은 날씨가 정말 좋네요.",
+
 }
 
 src_path = f'{output_dir}/tmp.wav'
