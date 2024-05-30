@@ -18,7 +18,7 @@ from melo.api import TTS
 
 texts = {
     'EN_NEWEST': "Did you ever hear a folk tale about a giant turtle?",  # The newest English base speaker model
-    'EN': "Hello, I am 吴在强 from the university of Tokyo. The title of my presentation is Virtual Measurement Garment for Per-Garment Virtual Try-On.",
+    'EN': "Hello, I am Zaiqiang Wu from the university of Tokyo. The title of my presentation is Virtual Measurement Garment for Per-Garment Virtual Try-On.",
     'ZH': "在这次vacation中，我们计划去Paris欣赏埃菲尔铁塔和卢浮宫的美景。",
 
 }
