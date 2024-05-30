@@ -16,9 +16,14 @@ target_se, audio_name = se_extractor.get_se(reference_speaker, tone_color_conver
 
 from melo.api import TTS
 
+txt_path='./pre/p0.txt'
+
+with open(txt_path,"r") as f:
+    string = f.read()
+
 texts = {
-    'EN_NEWEST': "Did you ever hear a folk tale about a giant turtle?",  # The newest English base speaker model
-    'EN': "Hello, I am Tsai Chong Wu from the university of Tokyo. The title of my presentation is Virtual Measurement Garment for Per-Garment Virtual Try-On.",
+    'EN_NEWEST': string,  # The newest English base speaker model
+    'EN': string,
     'ZH': "在这次vacation中，我们计划去Paris欣赏埃菲尔铁塔和卢浮宫的美景。",
 
 }
